@@ -8,26 +8,638 @@
 [node name="Parking-lot-spaces" type="Sprite" parent="."]
 position = Vector2( 638.5, 359 )
 scale = Vector2( 1.47471, 1.24483 )
+z_index = -2
 texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="Parking_Spot" parent="." instance=ExtResource( 2 )]
-position = Vector2( 798, 470 )
+position = Vector2( 726, 471 )
+
+[node name="Parking_Spot2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 763, 532 )
+
+[node name="Parking_Spot9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 798, 532 )
+
+[node name="Parking_Spot10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 835, 532 )
+
+[node name="Parking_Spot3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 689, 532 )
+
+[node name="Parking_Spot4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 726, 532 )
+
+[node name="Parking_Spot11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 942, 532 )
+
+[node name="Parking_Spot12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 977, 532 )
+
+[node name="Parking_Spot13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1014, 532 )
+
+[node name="Parking_Spot14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 868, 532 )
+
+[node name="Parking_Spot15" parent="." instance=ExtResource( 2 )]
+position = Vector2( 905, 532 )
+
+[node name="Parking_Spot16" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1120, 532 )
+
+[node name="Parking_Spot17" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1155, 532 )
+
+[node name="Parking_Spot19" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1046, 532 )
+
+[node name="Parking_Spot20" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1083, 532 )
+
+[node name="Parking_Spot29" parent="." instance=ExtResource( 2 )]
+position = Vector2( 765, 663 )
 occupied = true
 form_filled = true
 
-[node name="Parking_Spot2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 761, 470 )
+[node name="Parking_Spot30" parent="." instance=ExtResource( 2 )]
+position = Vector2( 800, 663 )
 
-[node name="Parking_Spot3" parent="." instance=ExtResource( 2 )]
-position = Vector2( 724, 470 )
+[node name="Parking_Spot31" parent="." instance=ExtResource( 2 )]
+position = Vector2( 837, 663 )
 
-[node name="Parking_Spot4" parent="." instance=ExtResource( 2 )]
-position = Vector2( 687, 470 )
+[node name="Parking_Spot32" parent="." instance=ExtResource( 2 )]
+position = Vector2( 691, 663 )
+
+[node name="Parking_Spot33" parent="." instance=ExtResource( 2 )]
+position = Vector2( 728, 663 )
+
+[node name="Parking_Spot34" parent="." instance=ExtResource( 2 )]
+position = Vector2( 944, 663 )
+
+[node name="Parking_Spot35" parent="." instance=ExtResource( 2 )]
+position = Vector2( 979, 663 )
+
+[node name="Parking_Spot36" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1016, 663 )
+
+[node name="Parking_Spot37" parent="." instance=ExtResource( 2 )]
+position = Vector2( 870, 663 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot38" parent="." instance=ExtResource( 2 )]
+position = Vector2( 907, 663 )
+
+[node name="Parking_Spot39" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1122, 663 )
+
+[node name="Parking_Spot41" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1048, 663 )
+
+[node name="Parking_Spot42" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1085, 663 )
+
+[node name="Parking_Spot18" parent="." instance=ExtResource( 2 )]
+position = Vector2( 942, 471 )
+
+[node name="Parking_Spot21" parent="." instance=ExtResource( 2 )]
+position = Vector2( 977, 471 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot22" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1014, 471 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot23" parent="." instance=ExtResource( 2 )]
+position = Vector2( 868, 471 )
+
+[node name="Parking_Spot24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 905, 471 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1120, 471 )
+
+[node name="Parking_Spot26" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1155, 471 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot27" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1046, 471 )
+
+[node name="Parking_Spot28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1083, 471 )
+occupied = true
+form_filled = true
 
 [node name="Parking_Spot5" parent="." instance=ExtResource( 2 )]
-position = Vector2( 834, 470 )
+position = Vector2( 833, 471 )
 occupied = true
 form_filled = true
 
 [node name="Parking_Spot6" parent="." instance=ExtResource( 2 )]
-position = Vector2( 869, 470 )
+position = Vector2( 797, 471 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 763, 471 )
+
+[node name="Parking_Spot8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 690, 471 )
+
+[node name="Parking_Spot105" parent="." instance=ExtResource( 2 )]
+position = Vector2( 361, 536 )
+
+[node name="Parking_Spot106" parent="." instance=ExtResource( 2 )]
+position = Vector2( 396, 536 )
+
+[node name="Parking_Spot107" parent="." instance=ExtResource( 2 )]
+position = Vector2( 433, 536 )
+
+[node name="Parking_Spot108" parent="." instance=ExtResource( 2 )]
+position = Vector2( 287, 536 )
+
+[node name="Parking_Spot109" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 536 )
+
+[node name="Parking_Spot110" parent="." instance=ExtResource( 2 )]
+position = Vector2( 539, 536 )
+
+[node name="Parking_Spot111" parent="." instance=ExtResource( 2 )]
+position = Vector2( 574, 536 )
+
+[node name="Parking_Spot112" parent="." instance=ExtResource( 2 )]
+position = Vector2( 465, 536 )
+
+[node name="Parking_Spot113" parent="." instance=ExtResource( 2 )]
+position = Vector2( 502, 536 )
+
+[node name="Parking_Spot114" parent="." instance=ExtResource( 2 )]
+position = Vector2( 361, 475 )
+
+[node name="Parking_Spot115" parent="." instance=ExtResource( 2 )]
+position = Vector2( 396, 475 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot116" parent="." instance=ExtResource( 2 )]
+position = Vector2( 433, 475 )
+
+[node name="Parking_Spot117" parent="." instance=ExtResource( 2 )]
+position = Vector2( 287, 475 )
+
+[node name="Parking_Spot118" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 475 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot119" parent="." instance=ExtResource( 2 )]
+position = Vector2( 539, 475 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot120" parent="." instance=ExtResource( 2 )]
+position = Vector2( 574, 475 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot121" parent="." instance=ExtResource( 2 )]
+position = Vector2( 465, 475 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot122" parent="." instance=ExtResource( 2 )]
+position = Vector2( 502, 475 )
+
+[node name="Parking_Spot40" parent="." instance=ExtResource( 2 )]
+position = Vector2( 725, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot43" parent="." instance=ExtResource( 2 )]
+position = Vector2( 762, 342 )
+
+[node name="Parking_Spot44" parent="." instance=ExtResource( 2 )]
+position = Vector2( 797, 342 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot45" parent="." instance=ExtResource( 2 )]
+position = Vector2( 834, 342 )
+
+[node name="Parking_Spot46" parent="." instance=ExtResource( 2 )]
+position = Vector2( 688, 342 )
+
+[node name="Parking_Spot47" parent="." instance=ExtResource( 2 )]
+position = Vector2( 725, 342 )
+
+[node name="Parking_Spot48" parent="." instance=ExtResource( 2 )]
+position = Vector2( 941, 342 )
+
+[node name="Parking_Spot49" parent="." instance=ExtResource( 2 )]
+position = Vector2( 976, 342 )
+
+[node name="Parking_Spot50" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1013, 342 )
+
+[node name="Parking_Spot51" parent="." instance=ExtResource( 2 )]
+position = Vector2( 867, 342 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot52" parent="." instance=ExtResource( 2 )]
+position = Vector2( 904, 342 )
+
+[node name="Parking_Spot53" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1119, 342 )
+
+[node name="Parking_Spot54" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1154, 342 )
+
+[node name="Parking_Spot55" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1045, 342 )
+
+[node name="Parking_Spot56" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1082, 342 )
+
+[node name="Parking_Spot57" parent="." instance=ExtResource( 2 )]
+position = Vector2( 941, 281 )
+
+[node name="Parking_Spot58" parent="." instance=ExtResource( 2 )]
+position = Vector2( 976, 281 )
+
+[node name="Parking_Spot59" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1013, 281 )
+
+[node name="Parking_Spot60" parent="." instance=ExtResource( 2 )]
+position = Vector2( 867, 281 )
+
+[node name="Parking_Spot61" parent="." instance=ExtResource( 2 )]
+position = Vector2( 904, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot62" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1119, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot63" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1154, 281 )
+
+[node name="Parking_Spot64" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1045, 281 )
+
+[node name="Parking_Spot65" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1082, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot66" parent="." instance=ExtResource( 2 )]
+position = Vector2( 832, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot67" parent="." instance=ExtResource( 2 )]
+position = Vector2( 796, 281 )
+
+[node name="Parking_Spot68" parent="." instance=ExtResource( 2 )]
+position = Vector2( 762, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot69" parent="." instance=ExtResource( 2 )]
+position = Vector2( 689, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot101" parent="." instance=ExtResource( 2 )]
+position = Vector2( 217, 342 )
+
+[node name="Parking_Spot102" parent="." instance=ExtResource( 2 )]
+position = Vector2( 254, 342 )
+
+[node name="Parking_Spot123" parent="." instance=ExtResource( 2 )]
+position = Vector2( 361, 342 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot124" parent="." instance=ExtResource( 2 )]
+position = Vector2( 396, 342 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot125" parent="." instance=ExtResource( 2 )]
+position = Vector2( 433, 342 )
+
+[node name="Parking_Spot126" parent="." instance=ExtResource( 2 )]
+position = Vector2( 287, 342 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot127" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 342 )
+
+[node name="Parking_Spot128" parent="." instance=ExtResource( 2 )]
+position = Vector2( 539, 342 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot129" parent="." instance=ExtResource( 2 )]
+position = Vector2( 574, 342 )
+
+[node name="Parking_Spot130" parent="." instance=ExtResource( 2 )]
+position = Vector2( 465, 342 )
+
+[node name="Parking_Spot131" parent="." instance=ExtResource( 2 )]
+position = Vector2( 502, 342 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot132" parent="." instance=ExtResource( 2 )]
+position = Vector2( 361, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot133" parent="." instance=ExtResource( 2 )]
+position = Vector2( 396, 281 )
+
+[node name="Parking_Spot134" parent="." instance=ExtResource( 2 )]
+position = Vector2( 433, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot135" parent="." instance=ExtResource( 2 )]
+position = Vector2( 287, 281 )
+
+[node name="Parking_Spot136" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot137" parent="." instance=ExtResource( 2 )]
+position = Vector2( 539, 281 )
+
+[node name="Parking_Spot138" parent="." instance=ExtResource( 2 )]
+position = Vector2( 574, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot139" parent="." instance=ExtResource( 2 )]
+position = Vector2( 465, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot140" parent="." instance=ExtResource( 2 )]
+position = Vector2( 502, 281 )
+
+[node name="Parking_Spot141" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot142" parent="." instance=ExtResource( 2 )]
+position = Vector2( 216, 281 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot70" parent="." instance=ExtResource( 2 )]
+position = Vector2( 720, 93 )
+
+[node name="Parking_Spot71" parent="." instance=ExtResource( 2 )]
+position = Vector2( 757, 154 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot72" parent="." instance=ExtResource( 2 )]
+position = Vector2( 792, 154 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot73" parent="." instance=ExtResource( 2 )]
+position = Vector2( 829, 154 )
+
+[node name="Parking_Spot74" parent="." instance=ExtResource( 2 )]
+position = Vector2( 683, 154 )
+
+[node name="Parking_Spot75" parent="." instance=ExtResource( 2 )]
+position = Vector2( 720, 154 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot76" parent="." instance=ExtResource( 2 )]
+position = Vector2( 936, 154 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot77" parent="." instance=ExtResource( 2 )]
+position = Vector2( 971, 154 )
+
+[node name="Parking_Spot78" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1008, 154 )
+
+[node name="Parking_Spot79" parent="." instance=ExtResource( 2 )]
+position = Vector2( 862, 154 )
+
+[node name="Parking_Spot80" parent="." instance=ExtResource( 2 )]
+position = Vector2( 899, 154 )
+
+[node name="Parking_Spot81" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1114, 154 )
+
+[node name="Parking_Spot82" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1149, 154 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot83" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1040, 154 )
+
+[node name="Parking_Spot84" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1077, 154 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot85" parent="." instance=ExtResource( 2 )]
+position = Vector2( 936, 93 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot86" parent="." instance=ExtResource( 2 )]
+position = Vector2( 971, 93 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot87" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1008, 93 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot88" parent="." instance=ExtResource( 2 )]
+position = Vector2( 862, 93 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot89" parent="." instance=ExtResource( 2 )]
+position = Vector2( 899, 93 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot90" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1114, 93 )
+
+[node name="Parking_Spot91" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1149, 93 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot98" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1186, 92 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot92" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1040, 93 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot93" parent="." instance=ExtResource( 2 )]
+position = Vector2( 1077, 93 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot94" parent="." instance=ExtResource( 2 )]
+position = Vector2( 827, 93 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot95" parent="." instance=ExtResource( 2 )]
+position = Vector2( 791, 93 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot96" parent="." instance=ExtResource( 2 )]
+position = Vector2( 757, 93 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot97" parent="." instance=ExtResource( 2 )]
+position = Vector2( 684, 93 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot99" parent="." instance=ExtResource( 2 )]
+position = Vector2( 145, 95 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot100" parent="." instance=ExtResource( 2 )]
+position = Vector2( 182, 156 )
+
+[node name="Parking_Spot103" parent="." instance=ExtResource( 2 )]
+position = Vector2( 217, 156 )
+
+[node name="Parking_Spot104" parent="." instance=ExtResource( 2 )]
+position = Vector2( 254, 156 )
+
+[node name="Parking_Spot144" parent="." instance=ExtResource( 2 )]
+position = Vector2( 145, 156 )
+
+[node name="Parking_Spot145" parent="." instance=ExtResource( 2 )]
+position = Vector2( 361, 156 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot146" parent="." instance=ExtResource( 2 )]
+position = Vector2( 396, 156 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot147" parent="." instance=ExtResource( 2 )]
+position = Vector2( 433, 156 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot148" parent="." instance=ExtResource( 2 )]
+position = Vector2( 287, 156 )
+
+[node name="Parking_Spot149" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 156 )
+
+[node name="Parking_Spot150" parent="." instance=ExtResource( 2 )]
+position = Vector2( 539, 156 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot151" parent="." instance=ExtResource( 2 )]
+position = Vector2( 574, 156 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot152" parent="." instance=ExtResource( 2 )]
+position = Vector2( 465, 156 )
+
+[node name="Parking_Spot153" parent="." instance=ExtResource( 2 )]
+position = Vector2( 502, 156 )
+
+[node name="Parking_Spot154" parent="." instance=ExtResource( 2 )]
+position = Vector2( 361, 95 )
+
+[node name="Parking_Spot155" parent="." instance=ExtResource( 2 )]
+position = Vector2( 396, 95 )
+
+[node name="Parking_Spot156" parent="." instance=ExtResource( 2 )]
+position = Vector2( 433, 95 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot157" parent="." instance=ExtResource( 2 )]
+position = Vector2( 287, 95 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot158" parent="." instance=ExtResource( 2 )]
+position = Vector2( 324, 95 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot159" parent="." instance=ExtResource( 2 )]
+position = Vector2( 539, 95 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot160" parent="." instance=ExtResource( 2 )]
+position = Vector2( 574, 95 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot161" parent="." instance=ExtResource( 2 )]
+position = Vector2( 465, 95 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot162" parent="." instance=ExtResource( 2 )]
+position = Vector2( 502, 95 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot163" parent="." instance=ExtResource( 2 )]
+position = Vector2( 252, 95 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot164" parent="." instance=ExtResource( 2 )]
+position = Vector2( 216, 95 )
+occupied = true
+form_filled = true
+
+[node name="Parking_Spot165" parent="." instance=ExtResource( 2 )]
+position = Vector2( 182, 95 )
